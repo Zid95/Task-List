@@ -21,7 +21,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--dark);
+    background-color: var(--darker);
     color: #FFF;
 }
 
@@ -33,7 +33,7 @@ header{
 header h1{
     font-size: 2.5rem;
     font-weight: 300;
-    margin-bottom: 1rem;
+    margin: 0 0 3rem 8rem;
     color: var(--gray);
    
 }
@@ -51,7 +51,7 @@ input, button{
 
 #new-task-input{
     flex: 1 1 0%;
-    background-color: var(--darker);
+    background-color: var(--darkset);
     padding: 1rem;
     border-radius: 1rem;
     margin-right: 1rem;
@@ -91,7 +91,7 @@ opacity: 0.6;
     font-size: 1.5rem;
     font-weight: 300;
     color: var(--gray);
-    margin-bottom: 1rem;
+    margin: 1rem 0 1rem 15rem;
 }
 main{
     width: 600px;
